@@ -1,6 +1,6 @@
-# rails_yelp
+# Yelp!
 
-A one week group project to recreate the popular crowd-source review app Yelp. As our entry point into rails, our group members followed XP practices and a process based approach as we implemented functionalities into our app.
+A one week group project to recreate the popular crowd-source review app Yelp. As our entry point into Ruby on Rails, our group members followed XP practices and a process-based approach as we implemented functionalities into our app.
 
 ## How to use
 
@@ -30,9 +30,11 @@ Visit www.localhost:4000 on your browser
 
 ## Our approach
 
-We started building the project using our knowledge of Ruby as a foundation, and using Rails to make a website running quickly. Our initial task was to write user stories to break down the challenges into smaller steps in the perspective of the user.
+We started by building the project using our knowledge of Ruby as a foundation, and using Rails to make a functioning website running quickly. Our initial task was to write user stories to break down the challenges into smaller steps in the perspective of the user.
 
-We used the Devise gem to add secure encrypted and secure user authentication, and our databaseWhile adding the controller and models, we wrote tests using RSpec to test the features as we implemented them. After mob programming the core feature such as user authentication and item listings, we delegated tasks and worked as pairs to refactor and improve the look and feel of the site.
+We used the Devise gem to add secure encrypted and secure user authentication, and used PostgreSQL for storing user and business details. While adding the controller and models, we wrote tests using RSpec to test the features as we implemented them. After mob programming the core features such as user authentication and item listings, we delegated tasks and worked as pairs to refactor and improve the look and feel of the site.
+
+## User Stories
 
 *Step 1 - MVP*
 ```
@@ -152,3 +154,7 @@ As a reviewer
 So that I can update my review
 I can edit or delete my reviews
 ```
+
+## Team members
+
+Varun, Ellie, Sam, Lan
