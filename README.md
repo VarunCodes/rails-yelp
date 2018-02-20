@@ -1,4 +1,38 @@
-## rails_yelp
+# rails_yelp
+
+A one week group project to recreate the popular crowd-source review app Yelp. As our entry point into rails, our group members followed XP practices and a process based approach as we implemented functionalities into our app.
+
+## How to use
+
+Clone and navigate to the directory
+
+Run bundle to install gems
+
+`bundle`
+
+Create the databases and update the schema
+
+`rake db:setup`
+`rake db:migrate`
+
+Start the Rails server
+
+`rails s`
+
+Visit www.localhost:4000 on your browser
+
+
+## Tech stack
+
+* Ruby on Rails framework
+* RSpec for testing
+* PostgreSQL for storage
+
+## Our approach
+
+We started building the project using our knowledge of Ruby as a foundation, and using Rails to make a website running quickly. Our initial task was to write user stories to break down the challenges into smaller steps in the perspective of the user.
+
+We used the Devise gem to add secure encrypted and secure user authentication, and our databaseWhile adding the controller and models, we wrote tests using RSpec to test the features as we implemented them. After mob programming the core feature such as user authentication and item listings, we delegated tasks and worked as pairs to refactor and improve the look and feel of the site.
 
 *Step 1 - MVP*
 ```
@@ -118,17 +152,3 @@ As a reviewer
 So that I can update my review
 I can edit or delete my reviews
 ```
-
-### Setup
-
-Run bundle to install gems
-
-`bundle`
-
-Create the databases
-
-`rake db:setup`
-
-Migrate the table schema
-
-`rake db:migrate`
